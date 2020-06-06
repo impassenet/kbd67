@@ -89,7 +89,7 @@ void a_accent (qk_tap_dance_state_t *state, void *user_data) {
       break;
     case 2:
       unicode_input_start();
-      register_hex( 0x00E1 );
+      register_hex( 0x00E0 );
       unicode_input_finish();
       break;
   }
