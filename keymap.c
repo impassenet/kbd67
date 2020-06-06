@@ -123,14 +123,14 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch(keycode) {
     case M_integra:
       if (record->event.pressed) {
-        SEND_STRING("Integr@0967$");
+        SEND_STRING("xxxx");
       } else {
 		  // when keycode M_integra is released
       }
       break;
     case M_impassenet:
       if (record->event.pressed) {
-		    SEND_STRING("Pqsszord01" SS_TAP(X_ENTER));
+		    SEND_STRING("xxxx" SS_TAP(X_ENTER));
       } else {
 		  // when keycode M_impassenet is released
       }
